@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class KLMColors {
+  const KLMColors._();
   static const Color lightTeal = Color(0xFFB2D8D8);
   static const Color paleTeal = Color(0xFF66B2B2);
   static const Color teal = Color(0xFF008080);
