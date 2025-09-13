@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:klm_project/core/constants/klm_colors.dart';
+import 'package:klm_project/core/themes/app_colors.dart';
 
 class ThirdPartyAuth extends StatelessWidget {
   const ThirdPartyAuth({super.key});
@@ -18,12 +18,12 @@ class ThirdPartyAuth extends StatelessWidget {
               width: 43,
               height: 37,
               decoration: BoxDecoration(
-                color: KLMColors.darkTeal,
+                color: AppColors.darkTeal,
                 borderRadius: BorderRadius.circular(15),
               ),
               child: const Center(
                 child:
-                    Icon(Icons.facebook, color: KLMColors.lightTeal, size: 30),
+                    Icon(Icons.facebook, color: AppColors.lightTeal, size: 30),
               ),
             ),
           ),
@@ -33,12 +33,12 @@ class ThirdPartyAuth extends StatelessWidget {
               width: 43,
               height: 37,
               decoration: BoxDecoration(
-                color: KLMColors.darkTeal,
+                color: AppColors.darkTeal,
                 borderRadius: BorderRadius.circular(15),
               ),
               child: const Center(
                 child:
-                    Icon(Icons.android, color: KLMColors.lightTeal, size: 30),
+                    Icon(Icons.android, color: AppColors.lightTeal, size: 30),
               ),
             ),
           ),

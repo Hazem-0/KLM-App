@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:klm_project/core/constants/klm_colors.dart';
+import 'package:klm_project/core/themes/app_colors.dart';
 
 class OperationSelection extends StatelessWidget {
   const OperationSelection({super.key});
@@ -10,7 +10,7 @@ class OperationSelection extends StatelessWidget {
       width: 347,
       height: 64,
       decoration: BoxDecoration(
-        color: KLMColors.teal.withOpacity(0.54),
+        color: AppColors.teal.withOpacity(0.54),
         borderRadius: BorderRadius.circular(21.5),
       ),
       child: Row(
@@ -20,14 +20,14 @@ class OperationSelection extends StatelessWidget {
             width: 170,
             height: 50,
             decoration: BoxDecoration(
-              color: KLMColors.darkTeal,
+              color: AppColors.darkTeal,
               borderRadius: BorderRadius.circular(20),
             ),
             child: const Center(
               child: Text(
                 "الولوج",
                 style: TextStyle(
-                    color: KLMColors.white,
+                    color: AppColors.white,
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
@@ -37,14 +37,14 @@ class OperationSelection extends StatelessWidget {
             width: 146,
             height: 43,
             decoration: BoxDecoration(
-              color: KLMColors.teal,
+              color: AppColors.teal,
               borderRadius: BorderRadius.circular(20),
             ),
             child: const Center(
               child: Text(
                 "الانضمام",
                 style: TextStyle(
-                    color: KLMColors.white,
+                    color: AppColors.white,
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
