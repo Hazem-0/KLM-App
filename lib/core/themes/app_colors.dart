@@ -12,6 +12,7 @@ class AppColors {
   static const Color black = Colors.black;
   static const Color grey = Color(0xFF757575);
   static const Color lightGrey = Color(0xFFEEEEEE);
+  static const Color shadow = Color(0x88000000);
 
   static const Color success = Color(0xFF4CAF50);
   static const Color error = Color(0xFFE53935);
